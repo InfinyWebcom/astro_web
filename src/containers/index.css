@@ -1,0 +1,121 @@
+.app-login-main-content{
+    width: 100%;
+}
+.nav-menu-item .nav-menu-link,.indigo .nav-collapse .nav-collapse-btn  {
+    color: #4326a7 !important;
+}
+.nav-menu-item .nav-menu-link.active {
+    background-color: #4326a7 !important;
+    color: #fff !important;
+    border-top-right-radius: 1.875rem;
+    border-bottom-right-radius: 1.875rem;
+    margin-right: 20px;
+    position: relative;
+}
+.nav-menu-link.active:after{
+    content: " ";
+    position: absolute;
+    right: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+        display: inline-block;
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background-color: #d90368 !important;
+}
+.badge:not(:last-child) {
+    margin-right: 8px !important;
+}
+.dataTableTitle{
+    background: linear-gradient(90deg, #4326a7 0%, #9780d0 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.app-logo img{
+    height: 50px !important;
+}
+.login-header {
+    margin-bottom: 1rem !important;
+}
+
+
+.text-area{
+    resize: none;
+    height: 77px !important;
+}
+.logo-container{
+    padding: 10px;
+}
+.astroLogo{
+    object-fit: contain;
+    width: 150px;
+    height: auto;
+    bottom: 0;
+}
+.title{
+    font-weight: 300;
+}
+.MuiTableCell-root{
+    font-size: 1.02rem !important;
+}
+.parent thead,.parent thead tr th{
+    background-color: #4326a7  !important;
+    color:#ffffff !important;
+}
+.parent thead tr th{
+    color: #ffffff !important;
+}
+.jr-chart-down{
+    color: #f99ed3 !important;
+}
+.borderWarningLeft{
+    border-left: 1px solid #ffc107!important;
+}
+.borderDangerLeft{
+    border-left: 2px solid #dc3545 !important;
+}
+.jr-btn:not(:last-child), .jr-fab-btn:not(:last-child), .btn:not(:last-child) {
+    margin-right: 6px !important;
+}
+.lineHeight{
+    line-height: 18px !important;
+}
+.dasboardBadge{
+    font-size: 100% !important;
+}
+.blogPost img{
+    width: 100% !important;
+    height: auto !important;
+}
+ div.rbc-event >div> .noBackGround{
+       width: 14.1755%;
+    position: absolute;
+    background: white !important;
+    margin-left: -5px;
+    margin-top: -2px;
+    color: black;
+}
+/* .rbc-calendar{
+    overflow: auto !important;
+
+}
+.rbc-month-view{
+    min-width: 480px !important;
+} */
+
+@media (max-width: 576px) { 
+    .rbc-event-content{
+        font-size: 0.650rem !important;
+    }
+    .rbc-month-row{
+        min-height: 50px;
+    }
+    .smFullWidth{
+        max-width: 100% !important;
+        min-width: 100% !important;
+    }
+    .jr-task-item-content-left {
+        padding-right: 0px !important;
+    }
+ }

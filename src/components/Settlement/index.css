@@ -1,0 +1,7 @@
+.MuiTableCell-root> #test{
+    display: flex !important;
+    justify-content: flex-end !important;
+}
+.settleDetails thead{
+    display: none !important;
+}
